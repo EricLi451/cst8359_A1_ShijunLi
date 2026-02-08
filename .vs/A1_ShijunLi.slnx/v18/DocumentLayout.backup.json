@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:58:22.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:58:21.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:58:21.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Index.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Index.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:36:58.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Manage.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Manage.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Manage.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Manage.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:37:54.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Controllers\\EventsController.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvzIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:35:43.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:58:17.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:18:19.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:49:35.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:38:23.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\Event.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Event.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:32:02.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Attendee.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\Attendee.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Attendee.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Models\\Attendee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:31:41.9Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

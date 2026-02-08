@@ -1,0 +1,7 @@
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Release\net8.0\PubTmp\Out\A1_ShijunLi.exe
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Release\net8.0\PubTmp\Out\A1_ShijunLi.dll
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Release\net8.0\PubTmp\Out\A1_ShijunLi.deps.json
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Release\net8.0\PubTmp\Out\A1_ShijunLi.runtimeconfig.json
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Release\net8.0\PubTmp\Out\A1_ShijunLi.pdb
