@@ -2,7 +2,11 @@
 {
     public class Attendee
     {
-        public string Name { get; set; }
+        public string Id { get; set; } = Guid.NewGuid().ToString(); 
+        public string Name { get; set; } 
         public string Email { get; set; }
+
+        public int EventId { get; set; } 
+        public Event Event { get; set; }
     }
 }

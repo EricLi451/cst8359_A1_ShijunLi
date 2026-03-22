@@ -3,52 +3,100 @@
   "WorkspaceRootPath": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\manageattendees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\manageattendees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D83B389-B275-4726-A86B-88B3468969D0}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\events\\addattendee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\events\\addattendee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\a1_shijunli.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\a1_shijunli.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|d:\\cst8359_lab\\lab02\\a1_shijunli\\a1_shijunli\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32CE6E5-67C2-3599-8E54-150204909C92}|A1_ShijunLi\\A1_ShijunLi.csproj|solutionrelative:a1_shijunli\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,97 +115,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T04:58:22.371Z",
+              "WhenOpened": "2026-03-22T22:29:48.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T04:58:21.659Z",
+              "WhenOpened": "2026-03-22T22:29:47.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Edit.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Edit.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Edit.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T04:58:21.095Z",
+              "WhenOpened": "2026-03-22T20:57:50.368Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Index.cshtml",
               "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Index.cshtml",
               "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Index.cshtml",
               "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-08T04:36:58.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Manage.cshtml",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Manage.cshtml",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Manage.cshtml",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Manage.cshtml",
-              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Manage.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T04:37:54.349Z",
+              "WhenOpened": "2026-02-08T04:38:23.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EventsController.cs",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\EventsController.cs",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Controllers\\EventsController.cs",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\EventsController.cs",
-              "RelativeToolTip": "A1_ShijunLi\\Controllers\\EventsController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAADwvzIAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Program.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Program.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Program.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T04:35:43.985Z",
+              "WhenOpened": "2026-03-22T20:42:26.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\appsettings.json",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\appsettings.json",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\appsettings.json",
+              "RelativeToolTip": "A1_ShijunLi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-22T20:51:13.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Details.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Details.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Details.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T04:58:17.645Z",
+              "WhenOpened": "2026-03-22T20:55:04.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Delete.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Delete.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Delete.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T21:01:49.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Create.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\Create.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\Create.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T20:51:40.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddAttendee.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\AddAttendee.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\AddAttendee.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\AddAttendee.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\AddAttendee.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T22:16:02.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageAttendees.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\ManageAttendees.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Events\\ManageAttendees.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Events\\ManageAttendees.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Events\\ManageAttendees.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-22T20:58:08.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\Event.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Event.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:32:02.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\ErrorViewModel.cs",
@@ -170,7 +296,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Attendee.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\Attendee.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Attendee.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Models\\Attendee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:31:41.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Data\\DbInitializer.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T20:41:52.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T20:41:29.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "A1_ShijunLi\\Controllers\\HomeController.cs",
@@ -183,41 +348,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Controllers\\EventsController.cs",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "A1_ShijunLi\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T04:35:43.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "A1_ShijunLi",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\A1_ShijunLi.csproj",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\A1_ShijunLi.csproj",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\A1_ShijunLi.csproj",
+              "RelativeToolTip": "A1_ShijunLi\\A1_ShijunLi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-22T20:36:04.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-08T04:38:23.333Z",
+              "WhenOpened": "2026-02-08T04:58:21.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Event.cs",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\Event.cs",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Event.cs",
-              "RelativeToolTip": "A1_ShijunLi\\Models\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T04:32:02.045Z",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:58:21.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Attendee.cs",
-              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Attendee.cs",
-              "RelativeDocumentMoniker": "A1_ShijunLi\\Models\\Attendee.cs",
-              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Models\\Attendee.cs",
-              "RelativeToolTip": "A1_ShijunLi\\Models\\Attendee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T04:31:41.9Z",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:58:22.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\cst8359_Lab\\Lab02\\A1_ShijunLi\\A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "A1_ShijunLi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-08T04:58:17.645Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,44 @@
+﻿@model A1_ShijunLi.Models.Event
+
+@{
+    ViewData["Title"] = "Manage Attendees";
+}
+
+<h2>Manage Attendees - @Model.Title</h2>
+
+<p class="mb-4">
+    <a href="/events/@Model.Id/attendees/create" class="btn btn-success">Add Attendee</a>
+    <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-secondary">Back to Event</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Attendees != null && Model.Attendees.Any())
+        {
+            foreach (var attendee in Model.Attendees)
+            {
+                <tr>
+                    <td>@attendee.Name</td>
+                    <td>@attendee.Email</td>
+                    <td>
+                        <form action="/events/@Model.Id/attendees/@attendee.Id/delete" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this attendee?');">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr><td colspan="3">No attendees found.</td></tr>
+        }
+    </tbody>
+</table>

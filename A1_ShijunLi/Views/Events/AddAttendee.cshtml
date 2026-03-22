@@ -1,0 +1,40 @@
+﻿@model A1_ShijunLi.Models.Attendee
+
+@{
+    ViewData["Title"] = "Add Attendee";
+    // 从控制器获取当前的 EventId
+    int eventId = ViewBag.EventId;
+}
+
+<h2>Add Attendee</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form action="/events/@eventId/attendees/create" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" required />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" type="email" class="form-control" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a href="/events/@eventId/attendees" class="btn btn-secondary">Back</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

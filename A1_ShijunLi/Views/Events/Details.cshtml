@@ -1,0 +1,51 @@
+﻿@model A1_ShijunLi.Models.Event
+
+@{
+    ViewData["Title"] = "Event Details";
+}
+
+<div>
+    <h2>@Model.Title</h2>
+    <hr />
+
+    @if (!string.IsNullOrEmpty(Model.BannerUrl))
+    {
+        <div class="mb-3">
+            <img src="@Model.BannerUrl" alt="Event Banner" class="img-fluid" style="max-height: 300px; object-fit: cover;" />
+        </div>
+    }
+
+    <dl class="row">
+        <dt class="col-sm-2">Description</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Date</dt>
+        <dd class="col-sm-10">@Model.Date.ToString("yyyy-MM-dd h:mm:ss tt")</dd>
+
+        <dt class="col-sm-2">Location</dt>
+        <dd class="col-sm-10">@Model.Location</dd>
+    </dl>
+</div>
+
+<div>
+    <h3>Attendees</h3>
+    @if (Model.Attendees != null && Model.Attendees.Any())
+    {
+        <ul>
+            @foreach (var attendee in Model.Attendees)
+            {
+                <li>@attendee.Name (@attendee.Email)</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No attendees yet.</p>
+    }
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit Event</a>
+    <a href="/events/@Model.Id/attendees" class="btn btn-info">Manage Attendees</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

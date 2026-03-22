@@ -22,12 +22,32 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/AddAttendee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEFkZEF0dGVuZGVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/Manage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXE1hbmFnZS5jc2h0bWw=
+[D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Events/ManageAttendees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXE1hbmFnZUF0dGVuZGVlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/cst8359_Lab/Lab02/A1_ShijunLi/A1_ShijunLi/Views/Home/Index.cshtml]
