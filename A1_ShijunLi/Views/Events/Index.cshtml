@@ -6,9 +6,13 @@
 
 <h2>Event Manager</h2>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New Event</a>
-</p>
+@* 只有 Organizer 角色才能看到创建按钮 *@
+@if (User.IsInRole("Organizer"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Create New Event</a>
+    </p>
+}
 
 <table class="table table-striped">
     <thead>
@@ -27,10 +31,21 @@
                 <td>@item.Date.ToString("yyyy-MM-dd HH:mm")</td>
                 <td>@item.Location</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
-                    <a href="/events/@item.Id/attendees">Attendees</a>
+                    @* Details 所有人都能看 *@
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+
+                    @* Edit, Delete 和 Attendees 管理链接只对 Organizer 显示 *@
+                    @if (User.IsInRole("Organizer"))
+                    {
+                        <span> | </span>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+
+                        <span> | </span>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+
+                        <span> | </span>
+                        <a href="/events/@item.Id/attendees">Attendees</a>
+                    }
                 </td>
             </tr>
         }
