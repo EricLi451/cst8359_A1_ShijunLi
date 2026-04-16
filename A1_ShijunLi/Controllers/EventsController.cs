@@ -8,8 +8,10 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System;
-// === 新增：引入权限控制工具 ===
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.SignalR;
+using A1_ShijunLi.Hubs;
+using System.Security.Claims;
 
 namespace A1_ShijunLi.Controllers
 {
@@ -17,23 +19,23 @@ namespace A1_ShijunLi.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IConfiguration _configuration;
+        private readonly IHubContext<EventHub> _hubContext;
 
-        public EventsController(ApplicationDbContext context, IConfiguration configuration)
+        public EventsController(ApplicationDbContext context, IConfiguration configuration, IHubContext<EventHub> hubContext)
         {
             _context = context;
             _configuration = configuration;
+            _hubContext = hubContext;
         }
 
         // 1. EVENT CRUD (事件的增删改查)
 
-        // GET: Events (列表页) - 任何人都能看
         [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Events.ToListAsync());
         }
 
-        // GET: Events/Details/5 (详情页) - 任何人都能看
         [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
@@ -48,14 +50,12 @@ namespace A1_ShijunLi.Controllers
             return View(@event);
         }
 
-        // GET: Events/Create (创建页) - 只有组织者能进
         [Authorize(Roles = "Organizer")]
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Events/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Organizer")]
@@ -63,6 +63,9 @@ namespace A1_ShijunLi.Controllers
         {
             if (!string.IsNullOrEmpty(@event.Title))
             {
+                // === A3 新增：记录是哪个 Organizer 创建了这个活动 ===
+                @event.OrganizerId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
                 @event.BannerUrl = await UploadImageAsync(bannerImage) ?? "";
                 @event.Description = @event.Description ?? "";
                 @event.Location = @event.Location ?? "";
@@ -71,12 +74,14 @@ namespace A1_ShijunLi.Controllers
 
                 _context.Add(@event);
                 await _context.SaveChangesAsync();
+
+                // 【修复】：去掉了这里贴错的 SignalR 代码
+
                 return RedirectToAction(nameof(Index));
             }
             return View(@event);
         }
 
-        // GET: Events/Edit/5 - 只有组织者能进
         [Authorize(Roles = "Organizer")]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -88,11 +93,10 @@ namespace A1_ShijunLi.Controllers
             return View(@event);
         }
 
-        // POST: Events/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Organizer")]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,Date,Location,BannerUrl")] Event @event, IFormFile bannerImage)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,Date,Location,BannerUrl,OrganizerId")] Event @event, IFormFile bannerImage)
         {
             if (id != @event.Id) return NotFound();
 
@@ -108,6 +112,8 @@ namespace A1_ShijunLi.Controllers
                     @event.BannerUrl = @event.BannerUrl ?? "";
                     @event.Description = @event.Description ?? "";
                     @event.Location = @event.Location ?? "";
+                    // 确保旧的 OrganizerId 不会丢失
+                    @event.OrganizerId = @event.OrganizerId ?? "";
 
                     ModelState.Clear();
 
@@ -124,7 +130,6 @@ namespace A1_ShijunLi.Controllers
             return View(@event);
         }
 
-        // GET: Events/Delete/5 - 只有组织者能进
         [Authorize(Roles = "Organizer")]
         public async Task<IActionResult> Delete(int? id)
         {
@@ -136,7 +141,6 @@ namespace A1_ShijunLi.Controllers
             return View(@event);
         }
 
-        // POST: Events/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Organizer")]
@@ -151,9 +155,78 @@ namespace A1_ShijunLi.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // 2. ATTENDEE CRUD (参与者管理)
+        // ==========================================
+        // === A3 新增：自我报名与取消报名逻辑 ===
+        // ==========================================
 
-        // 查看参与者列表 - 允许登录用户查看 (根据作业要求)
+        [HttpPost]
+        [Authorize] // 只要登录了就能点报名
+        public async Task<IActionResult> Register(int id)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userEmail = User.Identity!.Name; // 获取登录的邮箱作为名字
+
+            // 检查：防止重复报名
+            var alreadyRegistered = await _context.Attendees
+                .AnyAsync(a => a.EventId == id && a.UserId == userId);
+
+            if (!alreadyRegistered)
+            {
+                var newAttendee = new Attendee
+                {
+                    EventId = id,
+                    UserId = userId,
+                    Name = userEmail,
+                    Email = userEmail
+                };
+
+                _context.Attendees.Add(newAttendee);
+                await _context.SaveChangesAsync();
+
+                // 【修复】：SignalR 的广播代码正确地放在了这里！
+                // 1. 获取这个 Event 的最新总人数，以及老板的 ID
+                var eventData = await _context.Events.Include(e => e.Attendees).FirstOrDefaultAsync(e => e.Id == id);
+                int count = eventData?.Attendees?.Count ?? 1;
+                string organizerId = eventData?.OrganizerId;
+
+                // 2. 广播给所有正在看这个页面的人（更新列表和人数）
+                await _hubContext.Clients.Group($"event-{id}")
+                    .SendAsync("UpdateAttendeeList", userEmail, count);
+
+                // 3. 私聊通知老板
+                if (!string.IsNullOrEmpty(organizerId))
+                {
+                    await _hubContext.Clients.User(organizerId)
+                        .SendAsync("ReceiveNotification", $"{userEmail} just registered for your event '{eventData.Title}'.");
+                }
+            }
+
+            return RedirectToAction(nameof(Details), new { id = id });
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> Unregister(int id)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            // 找到属于当前用户的报名记录
+            var attendee = await _context.Attendees
+                .FirstOrDefaultAsync(a => a.EventId == id && a.UserId == userId);
+
+            if (attendee != null)
+            {
+                _context.Attendees.Remove(attendee);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Details), new { id = id });
+        }
+
+        // ==========================================
+        // 2. 传统 ATTENDEE CRUD (保持不变，供 Organizer 使用)
+        // ==========================================
+
         [Route("events/{eventId}/attendees")]
         [Authorize]
         public async Task<IActionResult> ManageAttendees(int eventId)
@@ -167,7 +240,6 @@ namespace A1_ShijunLi.Controllers
             return View(@event);
         }
 
-        // 添加参与者 - 只有组织者能操作
         [Route("events/{eventId}/attendees/create")]
         [Authorize(Roles = "Organizer")]
         public IActionResult AddAttendee(int eventId)
@@ -185,10 +257,8 @@ namespace A1_ShijunLi.Controllers
             if (!string.IsNullOrEmpty(attendee.Name) && !string.IsNullOrEmpty(attendee.Email))
             {
                 attendee.EventId = eventId;
-                if (string.IsNullOrEmpty(attendee.Id))
-                {
-                    attendee.Id = Guid.NewGuid().ToString();
-                }
+                if (string.IsNullOrEmpty(attendee.Id)) attendee.Id = Guid.NewGuid().ToString();
+
                 ModelState.Clear();
                 _context.Attendees.Add(attendee);
                 await _context.SaveChangesAsync();
@@ -198,7 +268,6 @@ namespace A1_ShijunLi.Controllers
             return View(attendee);
         }
 
-        // 删除参与者 - 只有组织者能操作
         [HttpPost]
         [Route("events/{eventId}/attendees/{attendeeId}/delete")]
         [ValidateAntiForgeryToken]
@@ -214,7 +283,7 @@ namespace A1_ShijunLi.Controllers
             return RedirectToAction(nameof(ManageAttendees), new { eventId = eventId });
         }
 
-        // 3. 辅助方法 (保持不变)
+        // 3. 辅助方法
         private bool EventExists(int id)
         {
             return _context.Events.Any(e => e.Id == id);

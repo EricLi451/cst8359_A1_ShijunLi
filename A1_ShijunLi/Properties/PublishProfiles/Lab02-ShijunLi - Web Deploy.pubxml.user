@@ -6,7 +6,13 @@
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <History>True|2026-02-08T05:05:02.9266611Z||;</History>
+    <History>True|2026-04-16T01:20:36.8227031Z||;True|2026-04-15T20:44:31.8135840-04:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=a2-shijunli-server.database.windows.net,1433;Initial Catalog=EventManagerDB;Authentication=ActiveDirectoryManagedIdentity" />
+    <AzureDBConnectionStrings Include="Data Source=lab03-shijunlidbserver.database.windows.net,1433;Initial Catalog=Lab03_ShijunLi_db;Authentication=ActiveDirectoryManagedIdentity" />
+    <AzureDBConnectionStrings Include="REDACTED" />
+    <AzureDBConnectionStrings Include="Server=tcp:a2-shijunli-server.database.windows.net;Authentication=Active Directory Default;Initial Catalog=EventManagerDB" />
+  </ItemGroup>
 </Project>

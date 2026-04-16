@@ -1,4 +1,6 @@
-﻿namespace A1_ShijunLi.Models
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+namespace A1_ShijunLi.Models
 {
     public class Attendee
     {
@@ -8,5 +10,6 @@
 
         public int EventId { get; set; } 
         public Event Event { get; set; }
+        public string? UserId { get; set; }
     }
 }

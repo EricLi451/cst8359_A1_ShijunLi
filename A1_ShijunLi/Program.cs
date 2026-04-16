@@ -16,8 +16,9 @@ namespace A1_ShijunLi
             // 1. 注册 MVC 控制器和视图服务
             builder.Services.AddControllersWithViews();
 
-            // === 新增：注册 Razor Pages 服务 (供 Identity 页面使用) ===
+   
             builder.Services.AddRazorPages();
+            builder.Services.AddSignalR(); 
 
             // 2. 注册数据库服务
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -64,9 +65,9 @@ namespace A1_ShijunLi
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
-            // === 新增：映射 Razor Pages 路由 (供 Identity 页面使用) ===
+  
             app.MapRazorPages();
-
+            app.MapHub<A1_ShijunLi.Hubs.EventHub>("/eventHub"); // 映射通讯塔的地址 
             app.Run();
         }
     }

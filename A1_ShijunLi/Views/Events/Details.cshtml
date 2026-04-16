@@ -1,7 +1,11 @@
-﻿@model A1_ShijunLi.Models.Event
+﻿@using System.Security.Claims
+@model A1_ShijunLi.Models.Event
 
 @{
     ViewData["Title"] = "Event Details";
+    // === A3 新增：判断当前用户是否已经报名 ===
+    var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+    bool isRegistered = Model.Attendees != null && Model.Attendees.Any(a => a.UserId == currentUserId);
 }
 
 <div>
@@ -27,29 +31,44 @@
     </dl>
 </div>
 
-@* 权限控制：任何已登录的用户 (包括 Organizer 和 Attendee) 都可以看到参与者名单 *@
 @if (User.Identity!.IsAuthenticated)
 {
     <div>
-        <h3>Attendees</h3>
-        @if (Model.Attendees != null && Model.Attendees.Any())
-        {
-            <ul>
-                @foreach (var attendee in Model.Attendees)
+        <h3>Attendees (<span id="attendeeCount">@(Model.Attendees?.Count ?? 0)</span>)</h3>
+        
+        @* === A3 新增：一键报名 / 取消报名 按钮 === *@
+        <div class="mb-3">
+            @if (isRegistered)
+            {
+                <form asp-action="Unregister" asp-route-id="@Model.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-danger">Unregister (I'm no longer going)</button>
+                </form>
+            }
+            else
+            {
+                <form asp-action="Register" asp-route-id="@Model.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-success">Register for this Event</button>
+                </form>
+            }
+        </div>
+
+        <ul id="attendeeList">
+            @if (Model.Attendees != null && Model.Attendees.Any())
+            {
+                foreach (var attendee in Model.Attendees)
                 {
                     <li>@attendee.Name (@attendee.Email)</li>
                 }
-            </ul>
-        }
-        else
-        {
-            <p>No attendees yet.</p>
-        }
+            }
+            else
+            {
+                <li id="noAttendeesMsg">No attendees yet.</li>
+            }
+        </ul>
     </div>
 }
 
 <div class="mt-3">
-    @* 只有 Organizer 才能看到编辑和管理参与者的按钮 *@
     @if (User.IsInRole("Organizer"))
     {
         <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit Event</a>
@@ -57,3 +76,43 @@
     }
     <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+
+    <script>
+        // 1. 连接到大喇叭 (Hub)
+        const connection = new signalR.HubConnectionBuilder()
+        .withUrl("/eventHub")
+        .build();
+
+        // 2. 告诉大喇叭我想听哪个频道的广播 (JoinEventGroup)
+        connection.start().then(function () {
+        connection.invoke("JoinEventGroup", "@Model.Id").catch(function (err) {
+        return console.error(err.toString());
+        });
+        }).catch(function (err) {
+        return console.error(err.toString());
+        });
+
+        // 3. 听到 "UpdateAttendeeList" 广播后，自动修改网页内容
+        connection.on("UpdateAttendeeList", function (userEmail, count) {
+        // 更新人数
+        document.getElementById("attendeeCount").innerText = count;
+            
+        // 清掉 "No attendees yet" 提示
+        var noMsg = document.getElementById("noAttendeesMsg");
+        if(noMsg) noMsg.remove();
+
+        // 在列表后面加上新报名的人
+        var list = document.getElementById("attendeeList");
+        var newItem = document.createElement("li");
+        newItem.textContent = userEmail + " (" + userEmail + ")";
+        list.appendChild(newItem);
+        });
+
+        // 4. 听到 "ReceiveNotification" 私聊通知后，弹窗提示老板
+        connection.on("ReceiveNotification", function (message) {
+        alert("🔔 Notification for Organizer: \n" + message);
+        });
+    </script>
+}

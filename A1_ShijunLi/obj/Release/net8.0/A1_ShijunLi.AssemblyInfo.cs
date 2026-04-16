@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("A1_ShijunLi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97a760a78fd7e3b1c8d2647a17964ed016ed2cb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe864e6f1e421022535d63e2d876e1dbf0974081")]
 [assembly: System.Reflection.AssemblyProductAttribute("A1_ShijunLi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("A1_ShijunLi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

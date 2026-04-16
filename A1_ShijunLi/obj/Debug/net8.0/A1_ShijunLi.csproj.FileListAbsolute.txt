@@ -140,7 +140,6 @@ D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\runtimes\win\lib\n
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Debug\net8.0\A1_ShijunLi.csproj.AssemblyReference.cache
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Debug\net8.0\A1_Shiju.F8943F21.Up2Date
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\dotnet-tools.json
-D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -291,3 +290,4 @@ D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\runtimes\win-arm\n
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\cst8359_Lab\Lab02\A1_ShijunLi\A1_ShijunLi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

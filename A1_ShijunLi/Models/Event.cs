@@ -12,6 +12,7 @@ namespace A1_ShijunLi.Models
         public string Location { get; set; }
         public string BannerUrl { get; set; }
 
-        public List<Attendee> Attendees { get; set; } = new List<Attendee>(); 
+        public List<Attendee> Attendees { get; set; } = new List<Attendee>();
+        public string? OrganizerId { get; set; }
     }
 }
